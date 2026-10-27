@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "dedsafio",
+  "version": "${version}",
+  "name": "DEDsafío",
+  "description": "Desafío de supervivencia por días con ruleta de colores y eventos, inspirado en DEDsafío.",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.dedsafio.DedsafioMod"
+    ],
+    "client": [
+      "com.dedsafio.client.DedsafioClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
